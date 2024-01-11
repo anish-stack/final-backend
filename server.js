@@ -46,7 +46,7 @@ app.post('/getClientByNumber', GetClientByMobileNumber);
 app.get('/Download-client-data/:id', downloadClientData);
 app.get('/download-attendance/:employeeId', downloadAttendance);
 app.get('/getExecutive/:email',getUserByEmail)
-// app.get('/getClients',protect,getClientsByuserid)
+app.get('/getClients',protect,getClientsByuserid)
 app.get('/getExecutive',getAllExecutive)
 app.get('/admin/clients',getAllClientsAdmin)
 app.post('/executive-details',getUserById)
